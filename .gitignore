@@ -7,3 +7,4 @@ docs/*.pdf
 run.bat
 
 **/node_modules/**
+.env
