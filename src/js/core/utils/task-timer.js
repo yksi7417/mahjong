@@ -185,4 +185,4 @@ class TaskTimer {
 TaskTimer.id = 0;
 TaskTimer.timers = {};
 
-export { TaskTimer };
+module.exports =  { TaskTimer };

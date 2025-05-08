@@ -1,9 +1,9 @@
-import { Player } from "./player.js";
-import { Personality } from "./personality/personality.js";
-import { config, CLAIM, Constants } from "../../../config.js";
-import { min, max } from "../utils/math.js";
-import { unhash, hash } from "../../core/algorithm/hash-printing.js";
-import { create } from "../utils/utils.js";
+const { Player } = require("./player.js");
+const { Personality } = require("./personality/personality.js");
+const { config, CLAIM, Constants } = require("../../../config.js");
+const { min, max } = require("../utils/math.js");
+const { unhash, hash } = require("../../core/algorithm/hash-printing.js");
+const { create } = require("../utils/utils.js");
 
 /**
  * This guy should be obvious: bots are simply
@@ -542,4 +542,4 @@ class BotPlayer extends Player {
   }
 }
 
-export { BotPlayer };
+module.exports =  { BotPlayer };

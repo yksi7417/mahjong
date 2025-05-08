@@ -1,9 +1,9 @@
-import { config } from "../../../config.js";
-import { OptionsDialog } from "./options-dialog.js";
-import { SettingsModal } from "./settings.js";
-import { ScoreModal } from "./scores.js";
-import { ThemeModal } from "./theming.js";
-import { ColorModal } from "./colors.js";
+const { config } = require("../../../config.js");
+const { OptionsDialog } = require("./options-dialog.js");
+const { SettingsModal } = require("./settings.js");
+const { ScoreModal } = require("./scores.js");
+const { ThemeModal } = require("./theming.js");
+const { ColorModal } = require("./colors.js");
 
 /**
  * A modal dialog handling class. The actual dialog
@@ -284,4 +284,4 @@ class Modal {
 
 let modal = new Modal();
 
-export { modal };
+module.exports =  { modal };

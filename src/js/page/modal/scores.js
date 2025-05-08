@@ -1,4 +1,4 @@
-import { Ruleset } from "../../core/scoring/ruleset.js";
+const { Ruleset } = require("../../core/scoring/ruleset.js");
 
 class ScoreModal {
   constructor(modal) {
@@ -178,4 +178,4 @@ class ScoreModal {
   }
 }
 
-export { ScoreModal };
+module.exports =  { ScoreModal };

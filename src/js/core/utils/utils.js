@@ -1,4 +1,4 @@
-import { create } from "../game/game-tile.js";
+const { create } = require("../game/game-tile.js");
 
 /**
  * We all know what this does.
@@ -39,4 +39,4 @@ function unroll(list, seen = [], result = []) {
   return result;
 }
 
-export { create, unroll };
+module.exports =  { create, unroll };

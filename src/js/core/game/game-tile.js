@@ -1,4 +1,4 @@
-import { TILE_NAMES } from "../../../config.js";
+const { TILE_NAMES } = require("../../../config.js");
 
 class GameTile extends HTMLElement {
   constructor(tile) {
@@ -227,4 +227,4 @@ const create = (tileNumber, hidden) => {
   return span;
 };
 
-export { create, GameTile };
+module.exports =  { create, GameTile };

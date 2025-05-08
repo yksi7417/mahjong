@@ -1,5 +1,5 @@
-import { config } from "../../../../config.js";
-import { WallHack } from "./wall-hack.js";
+const { config } = require("../../../../config.js");
+const { WallHack } = require("./wall-hack.js");
 
 let base = [...new Array(34)].map((_, i) => i);
 const BASE = base
@@ -63,4 +63,4 @@ class Wall {
   }
 }
 
-export { Wall };
+module.exports =  { Wall };

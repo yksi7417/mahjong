@@ -117,4 +117,4 @@ function buildStatsContainer(player) {
   return stats;
 }
 
-export { buildStatsContainer };
+module.exports =  { buildStatsContainer };

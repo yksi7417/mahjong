@@ -1,4 +1,4 @@
-import { random } from "./math.js";
+const { random } = require("./math.js");
 
 /**
  * Creates a pseudo-random value generator. The seed must be an integer.
@@ -43,4 +43,4 @@ Random.prototype.nextFloat = function (opt_minOrMax, opt_max) {
   return (this.next() - 1) / 2147483646;
 };
 
-export { Random };
+module.exports =  { Random };

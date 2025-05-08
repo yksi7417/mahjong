@@ -1,5 +1,5 @@
-import { hash, unhash } from "../path/to/hash-printing.js"; // adjust path
-import { Constants } from "../path/to/config.js";
+const { hash, unhash } = require("../../../src/js/core/algorithm/hash-printing.js");
+const { Constants } = require("../../../src/config.js");
 
 describe("hash-printing", () => {
   test("hash() creates a unique string for pair", () => {

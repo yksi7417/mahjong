@@ -1,8 +1,8 @@
-import { config } from "../../../config.js";
-import { LimitHands } from "./limit-hands.js";
-import { FaakLaakTable } from "./faan-laak-table.js";
-import { tilesNeeded } from "../algorithm/tiles-needed.js";
-import { PatternSet } from "../algorithm/pattern-set.js";
+const { config } = require("../../../config.js");
+const { LimitHands } = require("./limit-hands.js");
+const { FaakLaakTable } = require("./faan-laak-table.js");
+const { tilesNeeded } = require("../algorithm/tiles-needed.js");
+const { PatternSet } = require("../algorithm/pattern-set.js");
 
 /**
  * The generic ruleset object that specific
@@ -554,4 +554,4 @@ Ruleset.POINTS_DOUBLES = Symbol();
 })();
 
 
-export { Ruleset };
+module.exports =  { Ruleset };

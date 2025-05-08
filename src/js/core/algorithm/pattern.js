@@ -1,6 +1,6 @@
-import { unhash, hash } from "./hash-printing.js";
-import { Constants } from "../../../config.js";
-import { PatternSet } from "./pattern-set.js";
+const { unhash, hash } = require("./hash-printing.js");
+const { Constants } = require("../../../config.js");
+const { PatternSet } = require("./pattern-set.js");
 
 
 /**
@@ -274,4 +274,4 @@ class Pattern {
   }
 }
 
-export { Pattern };
+module.exports =  { Pattern };

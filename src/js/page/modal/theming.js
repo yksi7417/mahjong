@@ -1,4 +1,4 @@
-import { setStyleSheet, TileSetManager } from "../utils.js";
+const { setStyleSheet, TileSetManager } = require("../utils.js");
 
 function fileLoader(evt) {
   return new Promise((resolve, reject) => {
@@ -178,4 +178,4 @@ class ThemeModal {
   }
 }
 
-export { ThemeModal };
+module.exports =  { ThemeModal };

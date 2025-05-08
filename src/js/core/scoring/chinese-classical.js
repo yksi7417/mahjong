@@ -1,5 +1,5 @@
-import { config } from "../../../config.js";
-import { Ruleset } from "./ruleset.js";
+const { config } = require("../../../config.js");
+const { Ruleset } = require("./ruleset.js");
 
 /**
  * Chinese Classical rules.
@@ -320,4 +320,4 @@ class ChineseClassical extends Ruleset {
 // register as a ruleset
 Ruleset.register(ChineseClassical);
 
-export { ChineseClassical };
+module.exports =  { ChineseClassical };

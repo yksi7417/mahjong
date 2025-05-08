@@ -1,10 +1,10 @@
-import "../core/utils/utils.js";
-import { config } from "../../config.js";
-import { modal } from "../page/modal/modal.js";
-import { GameManager } from "../core/game/game-manager.js";
-import { rotateWinds } from "../core/players/ui/windicator.js";
+const "../core/utils/utils.js");
+const { config } = require("../../config.js");
+const { modal } = require("../page/modal/modal.js");
+const { GameManager } = require("../core/game/game-manager.js");
+const { rotateWinds } = require("../core/players/ui/windicator.js");
 
-// import { ClientUIMaster } from "../core/players/ui/client-ui-master.js";
+// import { ClientUIMaster } = require("../core/players/ui/client-ui-master.js");
 
 /**
  * This is the function that runs as the very first call

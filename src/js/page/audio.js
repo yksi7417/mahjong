@@ -1,5 +1,5 @@
-import { config } from "../../config.js";
-import { random } from "../core/utils/math.js";
+const { config } = require("../../config.js");
+const { random } = require("../core/utils/math.js");
 
 const filenames = {
   thud: [
@@ -72,4 +72,4 @@ function playClip(name, id) {
   // off" playback of that same file.
 }
 
-export { playClip };
+module.exports =  { playClip };

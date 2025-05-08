@@ -1,6 +1,6 @@
-import { config } from "../../../config.js";
-import { Ruleset } from "../../core/scoring/ruleset.js";
-import { WallHack  } from "../../core/game/wall/wall-hack.js";
+const { config } = require("../../../config.js");
+const { Ruleset } = require("../../core/scoring/ruleset.js");
+const { WallHack  } = require("../../core/game/wall/wall-hack.js");
 
 class SettingsModal {
   constructor(modal) {
@@ -166,4 +166,4 @@ class SettingsModal {
   }
 }
 
-export { SettingsModal };
+module.exports =  { SettingsModal };

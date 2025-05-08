@@ -80,4 +80,4 @@ class TileSet {
   }
 }
 
-export { TileSet };
+module.exports =  { TileSet };

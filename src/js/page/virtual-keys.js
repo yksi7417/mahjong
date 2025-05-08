@@ -61,7 +61,7 @@ function unlock_vk_signal(evt) {
   }
 };
 
-export {
+module.exports =  {
   vk_signal_lock,
   lock_vk_signal,
   unlock_vk_signal,

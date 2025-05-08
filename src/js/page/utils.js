@@ -73,4 +73,4 @@ class TileSetManager {
   }
 }
 
-export { TileSetManager, setStyleSheet };
+module.exports =  { TileSetManager, setStyleSheet };

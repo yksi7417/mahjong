@@ -1,6 +1,6 @@
-import { config, CLAIM } from "../../../config.js";
-import { BotPlayer } from "./bot.js";
-import { ClientUI } from "./ui/client-ui.js";
+const { config, CLAIM } = require("../../../config.js");
+const { BotPlayer } = require("./bot.js");
+const { ClientUI } = require("./ui/client-ui.js");
 
 
 /**
@@ -82,4 +82,4 @@ class HumanPlayer extends BotPlayer {
   }
 }
 
-export { HumanPlayer };
+module.exports =  { HumanPlayer };

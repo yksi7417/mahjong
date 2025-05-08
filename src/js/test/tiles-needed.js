@@ -1,5 +1,5 @@
-import { tilesNeeded } from ""../core/algorithm/tiles-needed.js";
-import { config, LOGGER as Logger, Constants } from "../../config.js";
+const { tilesNeeded } = require(""../core/algorithm/tiles-needed.js");
+const { config, LOGGER as Logger, Constants } = require("../../config.js");
 
 // local:
 let create = t => ({ dataset: { tile: t }, getTileFace: () => t }),

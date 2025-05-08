@@ -1,4 +1,4 @@
-import { setStyleSheet } from "../utils.js";
+const { setStyleSheet } = require("../utils.js");
 
 class ColorModal {
   constructor(modal) {
@@ -127,4 +127,4 @@ class ColorModal {
   }
 }
 
-export { ColorModal };
+module.exports =  { ColorModal };

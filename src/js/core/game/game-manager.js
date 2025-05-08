@@ -1,7 +1,7 @@
-import { HumanPlayer } from "../players/human.js";
-import { BotPlayer } from "../players/bot.js";
-import { Game } from "./game.js";
-import { config } from "../../../config.js";
+const { HumanPlayer } = require("../players/human.js");
+const { BotPlayer } = require("../players/bot.js");
+const { Game } = require("./game.js");
+const { config } = require("../../../config.js");
 
 
 /**
@@ -37,4 +37,4 @@ class GameManager {
   }
 }
 
-export { GameManager };
+module.exports =  { GameManager };

@@ -36,4 +36,4 @@ class FaakLaakTable {
   }
 }
 
-export { FaakLaakTable };
+module.exports =  { FaakLaakTable };

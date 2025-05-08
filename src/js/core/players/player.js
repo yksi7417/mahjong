@@ -1,6 +1,6 @@
-import { config, CLAIM } from "../../../config.js";
-import { PlayerMaster } from "./player-master.js";
-import { TaskTimer } from "../utils/task-timer.js";
+const { config, CLAIM } = require("../../../config.js");
+const { PlayerMaster } = require("./player-master.js");
+const { TaskTimer } = require("../utils/task-timer.js");
 
 
 // =========================================
@@ -162,4 +162,4 @@ class Player extends PlayerMaster {
   }
 }
 
-export { Player };
+module.exports =  { Player };

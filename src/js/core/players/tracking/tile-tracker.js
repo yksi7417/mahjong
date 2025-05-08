@@ -48,4 +48,4 @@ class TileTracker {
   }
 }
 
-export { TileTracker };
+module.exports =  { TileTracker };

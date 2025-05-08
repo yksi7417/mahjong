@@ -86,4 +86,4 @@ class PatternSet {
   }
 }
 
-export { PatternSet };
+module.exports =  { PatternSet };

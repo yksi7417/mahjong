@@ -1,4 +1,4 @@
-import { VK_UP, VK_DOWN, VK_START, VK_END } from "../virtual-keys.js";
+const { VK_UP, VK_DOWN, VK_START, VK_END } = require("../virtual-keys.js");
 
 class OptionsDialog {
   constructor(modal) {
@@ -84,4 +84,4 @@ class OptionsDialog {
   }
 }
 
-export { OptionsDialog };
+module.exports =  { OptionsDialog };

@@ -70,4 +70,4 @@ const rotateWinds = (function generateRotateWindsFunction() {
   return rotateWinds;
 })();
 
-export { rotateWinds };
+module.exports =  { rotateWinds };

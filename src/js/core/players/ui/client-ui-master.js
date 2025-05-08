@@ -1,9 +1,9 @@
-import { config, CLAIM } from "../../../../config.js";
-import { playClip } from "../../../page/audio.js";
-import { create } from "../../utils/utils.js";
-import { rotateWinds } from "./windicator.js";
-import { modal } from "../../../page/modal/modal.js";
-import { TaskTimer } from "../../../core/utils/task-timer.js";
+const { config, CLAIM } = require("../../../../config.js");
+const { playClip } = require("../../../page/audio.js");
+const { create } = require("../../utils/utils.js");
+const { rotateWinds } = require("./windicator.js");
+const { modal } = require("../../../page/modal/modal.js");
+const { TaskTimer } = require("../../../core/utils/task-timer.js");
 
 
 /**
@@ -722,4 +722,4 @@ class ClientUIMaster {
   }
 }
 
-export { ClientUIMaster };
+module.exports =  { ClientUIMaster };

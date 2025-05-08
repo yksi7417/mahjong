@@ -1,9 +1,9 @@
-import { Player } from "../players/player.js";
-import { Ruleset } from "../scoring/ruleset.js";
-import { Wall } from "./wall/wall.js";
-import { CLAIM } from "../../../config.js";
-import { modal } from "../../page/modal/modal.js";
-import { config } from "../../../config.js";
+const { Player } = require("../players/player.js");
+const { Ruleset } = require("../scoring/ruleset.js");
+const { Wall } = require("./wall/wall.js");
+const { CLAIM } = require("../../../config.js");
+const { modal } = require("../../page/modal/modal.js");
+const { config } = require("../../../config.js");
 
 /**
  * This class models an entire game.
@@ -666,4 +666,4 @@ class Game {
   }
 }
 
-export { Game };
+module.exports =  { Game };

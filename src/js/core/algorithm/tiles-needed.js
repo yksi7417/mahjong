@@ -1,8 +1,8 @@
-import { Pattern } from "./pattern.js";
-import { PatternSet } from "./pattern-set.js";
-import { unroll } from "../utils/utils.js";
-import { TileSet } from "./tileset.js";
-import { Constants } from "../../../config.js";
+const { Pattern } = require("./pattern.js");
+const { PatternSet } = require("./pattern-set.js");
+const { unroll } = require("../utils/utils.js");
+const { TileSet } = require("./tileset.js");
+const { Constants } = require("../../../config.js");
 
 
 /**
@@ -146,4 +146,4 @@ function getStillNeeded(locked, composed) {
   return to_complete;
 }
 
-export { tilesNeeded };
+module.exports =  { tilesNeeded };

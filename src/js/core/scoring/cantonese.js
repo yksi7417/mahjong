@@ -1,5 +1,5 @@
-import { config } from "../../../config.js";
-import { Ruleset } from "./ruleset.js";
+const { config } = require("../../../config.js");
+const { Ruleset } = require("./ruleset.js");
 
 /**
  * Cantonese rules.
@@ -204,4 +204,4 @@ class Cantonese extends Ruleset {
 // register as a ruleset
 Ruleset.register(Cantonese);
 
-export { Cantonese };
+module.exports = { Cantonese };

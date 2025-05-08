@@ -1,6 +1,6 @@
-import { config, CLAIM } from "../../../../config.js";
-import { buildStatsContainer } from "./stats.js";
-import { max } from "../../utils/math.js";
+const { config, CLAIM } = require("../../../../config.js");
+const { buildStatsContainer } = require("./stats.js");
+const { max } = require("../../utils/math.js");
 
 
 /**
@@ -314,4 +314,4 @@ class Personality {
   }
 }
 
-export { Personality };
+module.exports =  { Personality };

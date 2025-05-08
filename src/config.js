@@ -1,8 +1,8 @@
-import { Random } from "./js/core/utils/prng.js";
-import { playlog } from "./js/core/utils/logger.js";
+const { Random } = require("./js/core/utils/prng.js");
+const { playlog } = require("./js/core/utils/logger.js");
 
-import "./js/core/scoring/cantonese.js";
-import "./js/core/scoring/chinese-classical.js";
+require("./js/core/scoring/cantonese.js");
+require("./js/core/scoring/chinese-classical.js");
 
 const noop = () => {};
 const __console_debug = console.debug.bind(console);
@@ -374,4 +374,11 @@ config.set({ DEBUG: currentConfig.DEBUG });
 config.log = playlog.log;
 config.flushLog = playlog.flush;
 
-export { config, CLAIM,  Constants, TILE_NAMES, TILE_GLYPHS, SUIT_NAMES };
+module.exports = {
+  config,
+  CLAIM,
+  Constants,
+  TILE_NAMES,
+  TILE_GLYPHS,
+  SUIT_NAMES
+};

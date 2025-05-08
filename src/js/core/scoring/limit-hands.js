@@ -41,4 +41,4 @@ class LimitHands {
   }
 }
 
-export { LimitHands };
+module.exports =  { LimitHands };

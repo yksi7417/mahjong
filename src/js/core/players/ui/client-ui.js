@@ -1,7 +1,7 @@
-import { config, CLAIM } from "../../../../config.js";
-import { modal } from "../../../page/modal/modal.js";
-import { ClientUIMaster } from "./client-ui-master.js";
-import { lock_vk_signal, vk_signal_lock, VK_LEFT, VK_RIGHT, VK_UP, VK_DOWN, VK_START, VK_END, VK_SIGNAL } from "../../../page/virtual-keys.js";
+const { config, CLAIM } = require("../../../../config.js");
+const { modal } = require("../../../page/modal/modal.js");
+const { ClientUIMaster } = require("./client-ui-master.js");
+const { lock_vk_signal, vk_signal_lock, VK_LEFT, VK_RIGHT, VK_UP, VK_DOWN, VK_START, VK_END, VK_SIGNAL } = require("../../../page/virtual-keys.js");
 
 
 /**
@@ -574,4 +574,4 @@ class ClientUI extends ClientUIMaster {
   }
 }
 
-export { ClientUI };
+module.exports =  { ClientUI };

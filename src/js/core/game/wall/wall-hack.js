@@ -1,4 +1,4 @@
-import { config } from "../../../../config.js";
+const { config } = require("../../../../config.js");
 
 /**
  * We need a way to debug play with specific walls, so...
@@ -227,4 +227,4 @@ const WallHack = {
   }
 };
 
-export { WallHack };
+module.exports =  { WallHack };

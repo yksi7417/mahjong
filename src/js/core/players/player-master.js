@@ -1,6 +1,6 @@
-import { TileTracker } from "./tracking/tile-tracker.js";
-import { tilesNeeded } from "./../algorithm/tiles-needed.js";
-import { create } from "../utils/utils.js";
+const { TileTracker } = require("./tracking/tile-tracker.js");
+const { tilesNeeded } = require("./../algorithm/tiles-needed.js");
+const { create } = require("../utils/utils.js");
 
 
 // =========================================
@@ -445,4 +445,4 @@ class PlayerMaster {
   }
 }
 
-export { PlayerMaster };
+module.exports =  { PlayerMaster };

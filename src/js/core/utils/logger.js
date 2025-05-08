@@ -1,4 +1,4 @@
-import { config } from "../../../config.js";
+const { config } = require("../../../config.js");
 
 const playlog = {
     lines: [],
@@ -27,4 +27,4 @@ const playlog = {
     }
 };
 
-export { playlog };
+module.exports =  { playlog };
