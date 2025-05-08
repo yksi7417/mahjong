@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "firebase": "^11.6.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
